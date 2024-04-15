@@ -50,9 +50,9 @@
 
         blue {
             bindings = <
-&kp B  &kp F  &kp T  &kp J                           &kp J     &kp T  &kp F  &kp B
-&kp H  &kp C  &kp N  &kp Y                           &kp Y     &kp N  &kp C  &kp H
-                     &kp BSPC  &kp SPACE  &kp SPACE  &kp BSPC
+&kp B  &kp F  &kp T  &kp J                                                         &kp J            &kp T  &kp F  &kp B
+&kp H  &kp C  &kp N  &kp Y                                                         &kp Y            &kp N  &kp C  &kp H
+                     &lt 1 BACKSPACE  &mt LEFT_SHIFT SPACE  &mt RIGHT_SHIFT SPACE  &lt 1 BACKSPACE
             >;
         };
 
