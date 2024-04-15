@@ -44,11 +44,6 @@
 };
 
 / {
-  combos {
-    compatible = "zmk,combos";
-    #include "chords.dtsi"
-  };
-
   keymap {
     compatible = "zmk,keymap";
 
