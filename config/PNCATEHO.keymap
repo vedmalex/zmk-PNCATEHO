@@ -67,8 +67,8 @@
 
         orange {
             bindings = <
-&kp LEFT  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW                  &kp LEFT_ARROW  &kp UP     &kp DOWN  &kp RIGHT
-&kp LGUI  &kp LALT      &kp LCTRL       &kp LSHFT                        &kp LSHFT       &kp LCTRL  &kp LALT  &kp LGUI
+&kp LEFT  &kp UP        &kp DOWN        &kp RIGHT_ARROW                  &kp LEFT        &kp UP           &kp DOWN        &kp RIGHT
+&kp LGUI  &kp LALT      &kp LCTRL       &kp LSHFT                        &kp LSHFT       &kp LCTRL        &kp LALT        &kp LGUI
                                         &trans           &trans  &trans  &trans
             >;
         };
