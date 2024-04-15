@@ -45,6 +45,15 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        combo_b_left {
+            bindings = <&kp B>;
+            key-positions = <3 0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
