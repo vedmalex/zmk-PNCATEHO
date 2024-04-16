@@ -1,1959 +1,1959 @@
 combo_l_B { \
 	timeout-ms = <200>; \
 	bindings = <&kp B>; \
-	key-positions = <TLP>; \
+	key-positions = <0>; \
 	layers = <0>; \
 }; \
 combo_li_B { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(B)>; \
-	key-positions = <TLP LIT>; \
+	key-positions = <0 17>; \
 	layers = <0>; \
 }; \
 combo_lo_B { \
 	timeout-ms = <200>; \
 	bindings = <&kp LEFT>; \
-	key-positions = <TLP LOT>; \
+	key-positions = <0 16>; \
 	layers = <0>; \
 }; \
 combo_lb_B { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(LEFT)>; \
-	key-positions = <TLP LIT LOT>; \
+	key-positions = <0 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_B { \
 	timeout-ms = <200>; \
 	bindings = <&kp B>; \
-	key-positions = <TRP>; \
+	key-positions = <7>; \
 	layers = <0>; \
 }; \
 combo_ri_B { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(B)>; \
-	key-positions = <TRP RIT>; \
+	key-positions = <7 18>; \
 	layers = <0>; \
 }; \
 combo_ro_B { \
 	timeout-ms = <200>; \
 	bindings = <&kp LEFT>; \
-	key-positions = <TRP ROT>; \
+	key-positions = <7 19>; \
 	layers = <0>; \
 }; \
 combo_rb_B { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(LEFT)>; \
-	key-positions = <TRP RIT ROT>; \
+	key-positions = <7 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_F { \
 	timeout-ms = <200>; \
 	bindings = <&kp F>; \
-	key-positions = <TLR>; \
+	key-positions = <1>; \
 	layers = <0>; \
 }; \
 combo_li_F { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(F)>; \
-	key-positions = <TLR LIT>; \
+	key-positions = <1 17>; \
 	layers = <0>; \
 }; \
 combo_lo_F { \
 	timeout-ms = <200>; \
 	bindings = <&kp UP>; \
-	key-positions = <TLR LOT>; \
+	key-positions = <1 16>; \
 	layers = <0>; \
 }; \
 combo_lb_F { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(UP)>; \
-	key-positions = <TLR LIT LOT>; \
+	key-positions = <1 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_F { \
 	timeout-ms = <200>; \
 	bindings = <&kp F>; \
-	key-positions = <TRR>; \
+	key-positions = <6>; \
 	layers = <0>; \
 }; \
 combo_ri_F { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(F)>; \
-	key-positions = <TRR RIT>; \
+	key-positions = <6 18>; \
 	layers = <0>; \
 }; \
 combo_ro_F { \
 	timeout-ms = <200>; \
 	bindings = <&kp UP>; \
-	key-positions = <TRR ROT>; \
+	key-positions = <6 19>; \
 	layers = <0>; \
 }; \
 combo_rb_F { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(UP)>; \
-	key-positions = <TRR RIT ROT>; \
+	key-positions = <6 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_T { \
 	timeout-ms = <200>; \
 	bindings = <&kp T>; \
-	key-positions = <TLM>; \
+	key-positions = <2>; \
 	layers = <0>; \
 }; \
 combo_li_T { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(T)>; \
-	key-positions = <TLM LIT>; \
+	key-positions = <2 17>; \
 	layers = <0>; \
 }; \
 combo_lo_T { \
 	timeout-ms = <200>; \
 	bindings = <&kp DOWN>; \
-	key-positions = <TLM LOT>; \
+	key-positions = <2 16>; \
 	layers = <0>; \
 }; \
 combo_lb_T { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(DOWN)>; \
-	key-positions = <TLM LIT LOT>; \
+	key-positions = <2 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_T { \
 	timeout-ms = <200>; \
 	bindings = <&kp T>; \
-	key-positions = <TRM>; \
+	key-positions = <5>; \
 	layers = <0>; \
 }; \
 combo_ri_T { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(T)>; \
-	key-positions = <TRM RIT>; \
+	key-positions = <5 18>; \
 	layers = <0>; \
 }; \
 combo_ro_T { \
 	timeout-ms = <200>; \
 	bindings = <&kp DOWN>; \
-	key-positions = <TRM ROT>; \
+	key-positions = <5 19>; \
 	layers = <0>; \
 }; \
 combo_rb_T { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(DOWN)>; \
-	key-positions = <TRM RIT ROT>; \
+	key-positions = <5 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_J { \
 	timeout-ms = <200>; \
 	bindings = <&kp J>; \
-	key-positions = <TLI>; \
+	key-positions = <3>; \
 	layers = <0>; \
 }; \
 combo_li_J { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(J)>; \
-	key-positions = <TLI LIT>; \
+	key-positions = <3 17>; \
 	layers = <0>; \
 }; \
 combo_lo_J { \
 	timeout-ms = <200>; \
 	bindings = <&kp RIGHT>; \
-	key-positions = <TLI LOT>; \
+	key-positions = <3 16>; \
 	layers = <0>; \
 }; \
 combo_lb_J { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(RIGHT)>; \
-	key-positions = <TLI LIT LOT>; \
+	key-positions = <3 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_J { \
 	timeout-ms = <200>; \
 	bindings = <&kp J>; \
-	key-positions = <TRI>; \
+	key-positions = <4>; \
 	layers = <0>; \
 }; \
 combo_ri_J { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(J)>; \
-	key-positions = <TRI RIT>; \
+	key-positions = <4 18>; \
 	layers = <0>; \
 }; \
 combo_ro_J { \
 	timeout-ms = <200>; \
 	bindings = <&kp RIGHT>; \
-	key-positions = <TRI ROT>; \
+	key-positions = <4 19>; \
 	layers = <0>; \
 }; \
 combo_rb_J { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(RIGHT)>; \
-	key-positions = <TRI RIT ROT>; \
+	key-positions = <4 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_H { \
 	timeout-ms = <200>; \
 	bindings = <&kp H>; \
-	key-positions = <BLP>; \
+	key-positions = <8>; \
 	layers = <0>; \
 }; \
 combo_li_H { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(H)>; \
-	key-positions = <BLP LIT>; \
+	key-positions = <8 17>; \
 	layers = <0>; \
 }; \
 combo_lo_H { \
 	timeout-ms = <200>; \
 	bindings = <&sk LGUI>; \
-	key-positions = <BLP LOT>; \
+	key-positions = <8 16>; \
 	layers = <0>; \
 }; \
 combo_lb_H { \
 	timeout-ms = <200>; \
 	bindings = <&kp HOME>; \
-	key-positions = <BLP LIT LOT>; \
+	key-positions = <8 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_H { \
 	timeout-ms = <200>; \
 	bindings = <&kp H>; \
-	key-positions = <BRP>; \
+	key-positions = <15>; \
 	layers = <0>; \
 }; \
 combo_ri_H { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(H)>; \
-	key-positions = <BRP RIT>; \
+	key-positions = <15 18>; \
 	layers = <0>; \
 }; \
 combo_ro_H { \
 	timeout-ms = <200>; \
 	bindings = <&sk LGUI>; \
-	key-positions = <BRP ROT>; \
+	key-positions = <15 19>; \
 	layers = <0>; \
 }; \
 combo_rb_H { \
 	timeout-ms = <200>; \
 	bindings = <&kp HOME>; \
-	key-positions = <BRP RIT ROT>; \
+	key-positions = <15 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_C { \
 	timeout-ms = <200>; \
 	bindings = <&kp C>; \
-	key-positions = <BLR>; \
+	key-positions = <9>; \
 	layers = <0>; \
 }; \
 combo_li_C { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(C)>; \
-	key-positions = <BLR LIT>; \
+	key-positions = <9 17>; \
 	layers = <0>; \
 }; \
 combo_lo_C { \
 	timeout-ms = <200>; \
 	bindings = <&sk LALT>; \
-	key-positions = <BLR LOT>; \
+	key-positions = <9 16>; \
 	layers = <0>; \
 }; \
 combo_lb_C { \
 	timeout-ms = <200>; \
 	bindings = <&kp PG_UP>; \
-	key-positions = <BLR LIT LOT>; \
+	key-positions = <9 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_C { \
 	timeout-ms = <200>; \
 	bindings = <&kp C>; \
-	key-positions = <BRR>; \
+	key-positions = <14>; \
 	layers = <0>; \
 }; \
 combo_ri_C { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(C)>; \
-	key-positions = <BRR RIT>; \
+	key-positions = <14 18>; \
 	layers = <0>; \
 }; \
 combo_ro_C { \
 	timeout-ms = <200>; \
 	bindings = <&sk LALT>; \
-	key-positions = <BRR ROT>; \
+	key-positions = <14 19>; \
 	layers = <0>; \
 }; \
 combo_rb_C { \
 	timeout-ms = <200>; \
 	bindings = <&kp PG_UP>; \
-	key-positions = <BRR RIT ROT>; \
+	key-positions = <14 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_N { \
 	timeout-ms = <200>; \
 	bindings = <&kp N>; \
-	key-positions = <BLM>; \
+	key-positions = <10>; \
 	layers = <0>; \
 }; \
 combo_li_N { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(N)>; \
-	key-positions = <BLM LIT>; \
+	key-positions = <10 17>; \
 	layers = <0>; \
 }; \
 combo_lo_N { \
 	timeout-ms = <200>; \
 	bindings = <&sk LCTRL>; \
-	key-positions = <BLM LOT>; \
+	key-positions = <10 16>; \
 	layers = <0>; \
 }; \
 combo_lb_N { \
 	timeout-ms = <200>; \
 	bindings = <&kp PG_DN>; \
-	key-positions = <BLM LIT LOT>; \
+	key-positions = <10 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_N { \
 	timeout-ms = <200>; \
 	bindings = <&kp N>; \
-	key-positions = <BRM>; \
+	key-positions = <13>; \
 	layers = <0>; \
 }; \
 combo_ri_N { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(N)>; \
-	key-positions = <BRM RIT>; \
+	key-positions = <13 18>; \
 	layers = <0>; \
 }; \
 combo_ro_N { \
 	timeout-ms = <200>; \
 	bindings = <&sk LCTRL>; \
-	key-positions = <BRM ROT>; \
+	key-positions = <13 19>; \
 	layers = <0>; \
 }; \
 combo_rb_N { \
 	timeout-ms = <200>; \
 	bindings = <&kp PG_DN>; \
-	key-positions = <BRM RIT ROT>; \
+	key-positions = <13 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_Y { \
 	timeout-ms = <200>; \
 	bindings = <&kp Y>; \
-	key-positions = <BLI>; \
+	key-positions = <11>; \
 	layers = <0>; \
 }; \
 combo_li_Y { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(Y)>; \
-	key-positions = <BLI LIT>; \
+	key-positions = <11 17>; \
 	layers = <0>; \
 }; \
 combo_lo_Y { \
 	timeout-ms = <200>; \
 	bindings = <&sk LSHIFT>; \
-	key-positions = <BLI LOT>; \
+	key-positions = <11 16>; \
 	layers = <0>; \
 }; \
 combo_lb_Y { \
 	timeout-ms = <200>; \
 	bindings = <&kp END>; \
-	key-positions = <BLI LIT LOT>; \
+	key-positions = <11 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_Y { \
 	timeout-ms = <200>; \
 	bindings = <&kp Y>; \
-	key-positions = <BRI>; \
+	key-positions = <12>; \
 	layers = <0>; \
 }; \
 combo_ri_Y { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(Y)>; \
-	key-positions = <BRI RIT>; \
+	key-positions = <12 18>; \
 	layers = <0>; \
 }; \
 combo_ro_Y { \
 	timeout-ms = <200>; \
 	bindings = <&sk LSHIFT>; \
-	key-positions = <BRI ROT>; \
+	key-positions = <12 19>; \
 	layers = <0>; \
 }; \
 combo_rb_Y { \
 	timeout-ms = <200>; \
 	bindings = <&kp END>; \
-	key-positions = <BRI RIT ROT>; \
+	key-positions = <12 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_D { \
 	timeout-ms = <200>; \
 	bindings = <&kp D>; \
-	key-positions = <TLP TLI>; \
+	key-positions = <0 3>; \
 	layers = <0>; \
 }; \
 combo_li_D { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(D)>; \
-	key-positions = <TLP TLI LIT>; \
+	key-positions = <0 3 17>; \
 	layers = <0>; \
 }; \
 combo_lo_D { \
 	timeout-ms = <200>; \
 	bindings = <&kp N1>; \
-	key-positions = <TLP TLI LOT>; \
+	key-positions = <0 3 16>; \
 	layers = <0>; \
 }; \
 combo_lb_D { \
 	timeout-ms = <200>; \
 	bindings = <&kp F1>; \
-	key-positions = <TLP TLI LIT LOT>; \
+	key-positions = <0 3 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_D { \
 	timeout-ms = <200>; \
 	bindings = <&kp D>; \
-	key-positions = <TRP TRI>; \
+	key-positions = <7 4>; \
 	layers = <0>; \
 }; \
 combo_ri_D { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(D)>; \
-	key-positions = <TRP TRI RIT>; \
+	key-positions = <7 4 18>; \
 	layers = <0>; \
 }; \
 combo_ro_D { \
 	timeout-ms = <200>; \
 	bindings = <&kp N1>; \
-	key-positions = <TRP TRI ROT>; \
+	key-positions = <7 4 19>; \
 	layers = <0>; \
 }; \
 combo_rb_D { \
 	timeout-ms = <200>; \
 	bindings = <&kp F1>; \
-	key-positions = <TRP TRI RIT ROT>; \
+	key-positions = <7 4 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_K { \
 	timeout-ms = <200>; \
 	bindings = <&kp K>; \
-	key-positions = <BLP BLI>; \
+	key-positions = <8 11>; \
 	layers = <0>; \
 }; \
 combo_li_K { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(K)>; \
-	key-positions = <BLP BLI LIT>; \
+	key-positions = <8 11 17>; \
 	layers = <0>; \
 }; \
 combo_lo_K { \
 	timeout-ms = <200>; \
 	bindings = <&kp N2>; \
-	key-positions = <BLP BLI LOT>; \
+	key-positions = <8 11 16>; \
 	layers = <0>; \
 }; \
 combo_lb_K { \
 	timeout-ms = <200>; \
 	bindings = <&kp F2>; \
-	key-positions = <BLP BLI LIT LOT>; \
+	key-positions = <8 11 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_K { \
 	timeout-ms = <200>; \
 	bindings = <&kp K>; \
-	key-positions = <BRP BRI>; \
+	key-positions = <15 12>; \
 	layers = <0>; \
 }; \
 combo_ri_K { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(K)>; \
-	key-positions = <BRP BRI RIT>; \
+	key-positions = <15 12 18>; \
 	layers = <0>; \
 }; \
 combo_ro_K { \
 	timeout-ms = <200>; \
 	bindings = <&kp N2>; \
-	key-positions = <BRP BRI ROT>; \
+	key-positions = <15 12 19>; \
 	layers = <0>; \
 }; \
 combo_rb_K { \
 	timeout-ms = <200>; \
 	bindings = <&kp F2>; \
-	key-positions = <BRP BRI RIT ROT>; \
+	key-positions = <15 12 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_R { \
 	timeout-ms = <200>; \
 	bindings = <&kp R>; \
-	key-positions = <BLP BLR>; \
+	key-positions = <8 9>; \
 	layers = <0>; \
 }; \
 combo_li_R { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(R)>; \
-	key-positions = <BLP BLR LIT>; \
+	key-positions = <8 9 17>; \
 	layers = <0>; \
 }; \
 combo_lo_R { \
 	timeout-ms = <200>; \
 	bindings = <&kp N3>; \
-	key-positions = <BLP BLR LOT>; \
+	key-positions = <8 9 16>; \
 	layers = <0>; \
 }; \
 combo_lb_R { \
 	timeout-ms = <200>; \
 	bindings = <&kp F3>; \
-	key-positions = <BLP BLR LIT LOT>; \
+	key-positions = <8 9 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_R { \
 	timeout-ms = <200>; \
 	bindings = <&kp R>; \
-	key-positions = <BRP BRR>; \
+	key-positions = <15 14>; \
 	layers = <0>; \
 }; \
 combo_ri_R { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(R)>; \
-	key-positions = <BRP BRR RIT>; \
+	key-positions = <15 14 18>; \
 	layers = <0>; \
 }; \
 combo_ro_R { \
 	timeout-ms = <200>; \
 	bindings = <&kp N3>; \
-	key-positions = <BRP BRR ROT>; \
+	key-positions = <15 14 19>; \
 	layers = <0>; \
 }; \
 combo_rb_R { \
 	timeout-ms = <200>; \
 	bindings = <&kp F3>; \
-	key-positions = <BRP BRR RIT ROT>; \
+	key-positions = <15 14 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_V { \
 	timeout-ms = <200>; \
 	bindings = <&kp V>; \
-	key-positions = <BLM BLI>; \
+	key-positions = <10 11>; \
 	layers = <0>; \
 }; \
 combo_li_V { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(V)>; \
-	key-positions = <BLM BLI LIT>; \
+	key-positions = <10 11 17>; \
 	layers = <0>; \
 }; \
 combo_lo_V { \
 	timeout-ms = <200>; \
 	bindings = <&kp N4>; \
-	key-positions = <BLM BLI LOT>; \
+	key-positions = <10 11 16>; \
 	layers = <0>; \
 }; \
 combo_lb_V { \
 	timeout-ms = <200>; \
 	bindings = <&kp F4>; \
-	key-positions = <BLM BLI LIT LOT>; \
+	key-positions = <10 11 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_V { \
 	timeout-ms = <200>; \
 	bindings = <&kp V>; \
-	key-positions = <BRM BRI>; \
+	key-positions = <13 12>; \
 	layers = <0>; \
 }; \
 combo_ri_V { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(V)>; \
-	key-positions = <BRM BRI RIT>; \
+	key-positions = <13 12 18>; \
 	layers = <0>; \
 }; \
 combo_ro_V { \
 	timeout-ms = <200>; \
 	bindings = <&kp N4>; \
-	key-positions = <BRM BRI ROT>; \
+	key-positions = <13 12 19>; \
 	layers = <0>; \
 }; \
 combo_rb_V { \
 	timeout-ms = <200>; \
 	bindings = <&kp F4>; \
-	key-positions = <BRM BRI RIT ROT>; \
+	key-positions = <13 12 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_L { \
 	timeout-ms = <200>; \
 	bindings = <&kp L>; \
-	key-positions = <TLP TLR>; \
+	key-positions = <0 1>; \
 	layers = <0>; \
 }; \
 combo_li_L { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(L)>; \
-	key-positions = <TLP TLR LIT>; \
+	key-positions = <0 1 17>; \
 	layers = <0>; \
 }; \
 combo_lo_L { \
 	timeout-ms = <200>; \
 	bindings = <&kp N5>; \
-	key-positions = <TLP TLR LOT>; \
+	key-positions = <0 1 16>; \
 	layers = <0>; \
 }; \
 combo_lb_L { \
 	timeout-ms = <200>; \
 	bindings = <&kp F5>; \
-	key-positions = <TLP TLR LIT LOT>; \
+	key-positions = <0 1 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_L { \
 	timeout-ms = <200>; \
 	bindings = <&kp L>; \
-	key-positions = <TRP TRR>; \
+	key-positions = <7 6>; \
 	layers = <0>; \
 }; \
 combo_ri_L { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(L)>; \
-	key-positions = <TRP TRR RIT>; \
+	key-positions = <7 6 18>; \
 	layers = <0>; \
 }; \
 combo_ro_L { \
 	timeout-ms = <200>; \
 	bindings = <&kp N5>; \
-	key-positions = <TRP TRR ROT>; \
+	key-positions = <7 6 19>; \
 	layers = <0>; \
 }; \
 combo_rb_L { \
 	timeout-ms = <200>; \
 	bindings = <&kp F5>; \
-	key-positions = <TRP TRR RIT ROT>; \
+	key-positions = <7 6 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_G { \
 	timeout-ms = <200>; \
 	bindings = <&kp G>; \
-	key-positions = <TLM TLI>; \
+	key-positions = <2 3>; \
 	layers = <0>; \
 }; \
 combo_li_G { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(G)>; \
-	key-positions = <TLM TLI LIT>; \
+	key-positions = <2 3 17>; \
 	layers = <0>; \
 }; \
 combo_lo_G { \
 	timeout-ms = <200>; \
 	bindings = <&kp N6>; \
-	key-positions = <TLM TLI LOT>; \
+	key-positions = <2 3 16>; \
 	layers = <0>; \
 }; \
 combo_lb_G { \
 	timeout-ms = <200>; \
 	bindings = <&kp F6>; \
-	key-positions = <TLM TLI LIT LOT>; \
+	key-positions = <2 3 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_G { \
 	timeout-ms = <200>; \
 	bindings = <&kp G>; \
-	key-positions = <TRM TRI>; \
+	key-positions = <5 4>; \
 	layers = <0>; \
 }; \
 combo_ri_G { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(G)>; \
-	key-positions = <TRM TRI RIT>; \
+	key-positions = <5 4 18>; \
 	layers = <0>; \
 }; \
 combo_ro_G { \
 	timeout-ms = <200>; \
 	bindings = <&kp N6>; \
-	key-positions = <TRM TRI ROT>; \
+	key-positions = <5 4 19>; \
 	layers = <0>; \
 }; \
 combo_rb_G { \
 	timeout-ms = <200>; \
 	bindings = <&kp F6>; \
-	key-positions = <TRM TRI RIT ROT>; \
+	key-positions = <5 4 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_E { \
 	timeout-ms = <200>; \
 	bindings = <&kp E>; \
-	key-positions = <BLR BLM>; \
+	key-positions = <9 10>; \
 	layers = <0>; \
 }; \
 combo_li_E { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(E)>; \
-	key-positions = <BLR BLM LIT>; \
+	key-positions = <9 10 17>; \
 	layers = <0>; \
 }; \
 combo_lo_E { \
 	timeout-ms = <200>; \
 	bindings = <&kp N7>; \
-	key-positions = <BLR BLM LOT>; \
+	key-positions = <9 10 16>; \
 	layers = <0>; \
 }; \
 combo_lb_E { \
 	timeout-ms = <200>; \
 	bindings = <&kp F7>; \
-	key-positions = <BLR BLM LIT LOT>; \
+	key-positions = <9 10 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_E { \
 	timeout-ms = <200>; \
 	bindings = <&kp E>; \
-	key-positions = <BRR BRM>; \
+	key-positions = <14 13>; \
 	layers = <0>; \
 }; \
 combo_ri_E { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(E)>; \
-	key-positions = <BRR BRM RIT>; \
+	key-positions = <14 13 18>; \
 	layers = <0>; \
 }; \
 combo_ro_E { \
 	timeout-ms = <200>; \
 	bindings = <&kp N7>; \
-	key-positions = <BRR BRM ROT>; \
+	key-positions = <14 13 19>; \
 	layers = <0>; \
 }; \
 combo_rb_E { \
 	timeout-ms = <200>; \
 	bindings = <&kp F7>; \
-	key-positions = <BRR BRM RIT ROT>; \
+	key-positions = <14 13 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_Z { \
 	timeout-ms = <200>; \
 	bindings = <&kp Z>; \
-	key-positions = <TLR TLM>; \
+	key-positions = <1 2>; \
 	layers = <0>; \
 }; \
 combo_li_Z { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(Z)>; \
-	key-positions = <TLR TLM LIT>; \
+	key-positions = <1 2 17>; \
 	layers = <0>; \
 }; \
 combo_lo_Z { \
 	timeout-ms = <200>; \
 	bindings = <&kp N8>; \
-	key-positions = <TLR TLM LOT>; \
+	key-positions = <1 2 16>; \
 	layers = <0>; \
 }; \
 combo_lb_Z { \
 	timeout-ms = <200>; \
 	bindings = <&kp F8>; \
-	key-positions = <TLR TLM LIT LOT>; \
+	key-positions = <1 2 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_Z { \
 	timeout-ms = <200>; \
 	bindings = <&kp Z>; \
-	key-positions = <TRR TRM>; \
+	key-positions = <6 5>; \
 	layers = <0>; \
 }; \
 combo_ri_Z { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(Z)>; \
-	key-positions = <TRR TRM RIT>; \
+	key-positions = <6 5 18>; \
 	layers = <0>; \
 }; \
 combo_ro_Z { \
 	timeout-ms = <200>; \
 	bindings = <&kp N8>; \
-	key-positions = <TRR TRM ROT>; \
+	key-positions = <6 5 19>; \
 	layers = <0>; \
 }; \
 combo_rb_Z { \
 	timeout-ms = <200>; \
 	bindings = <&kp F8>; \
-	key-positions = <TRR TRM RIT ROT>; \
+	key-positions = <6 5 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_S { \
 	timeout-ms = <200>; \
 	bindings = <&kp S>; \
-	key-positions = <BLP BLM>; \
+	key-positions = <8 10>; \
 	layers = <0>; \
 }; \
 combo_li_S { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(S)>; \
-	key-positions = <BLP BLM LIT>; \
+	key-positions = <8 10 17>; \
 	layers = <0>; \
 }; \
 combo_lo_S { \
 	timeout-ms = <200>; \
 	bindings = <&kp N9>; \
-	key-positions = <BLP BLM LOT>; \
+	key-positions = <8 10 16>; \
 	layers = <0>; \
 }; \
 combo_lb_S { \
 	timeout-ms = <200>; \
 	bindings = <&kp F9>; \
-	key-positions = <BLP BLM LIT LOT>; \
+	key-positions = <8 10 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_S { \
 	timeout-ms = <200>; \
 	bindings = <&kp S>; \
-	key-positions = <BRP BRM>; \
+	key-positions = <15 13>; \
 	layers = <0>; \
 }; \
 combo_ri_S { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(S)>; \
-	key-positions = <BRP BRM RIT>; \
+	key-positions = <15 13 18>; \
 	layers = <0>; \
 }; \
 combo_ro_S { \
 	timeout-ms = <200>; \
 	bindings = <&kp N9>; \
-	key-positions = <BRP BRM ROT>; \
+	key-positions = <15 13 19>; \
 	layers = <0>; \
 }; \
 combo_rb_S { \
 	timeout-ms = <200>; \
 	bindings = <&kp F9>; \
-	key-positions = <BRP BRM RIT ROT>; \
+	key-positions = <15 13 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_M { \
 	timeout-ms = <200>; \
 	bindings = <&kp M>; \
-	key-positions = <BLR BLI>; \
+	key-positions = <9 11>; \
 	layers = <0>; \
 }; \
 combo_li_M { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(M)>; \
-	key-positions = <BLR BLI LIT>; \
+	key-positions = <9 11 17>; \
 	layers = <0>; \
 }; \
 combo_lo_M { \
 	timeout-ms = <200>; \
 	bindings = <&kp N0>; \
-	key-positions = <BLR BLI LOT>; \
+	key-positions = <9 11 16>; \
 	layers = <0>; \
 }; \
 combo_lb_M { \
 	timeout-ms = <200>; \
 	bindings = <&kp F10>; \
-	key-positions = <BLR BLI LIT LOT>; \
+	key-positions = <9 11 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_M { \
 	timeout-ms = <200>; \
 	bindings = <&kp M>; \
-	key-positions = <BRR BRI>; \
+	key-positions = <14 12>; \
 	layers = <0>; \
 }; \
 combo_ri_M { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(M)>; \
-	key-positions = <BRR BRI RIT>; \
+	key-positions = <14 12 18>; \
 	layers = <0>; \
 }; \
 combo_ro_M { \
 	timeout-ms = <200>; \
 	bindings = <&kp N0>; \
-	key-positions = <BRR BRI ROT>; \
+	key-positions = <14 12 19>; \
 	layers = <0>; \
 }; \
 combo_rb_M { \
 	timeout-ms = <200>; \
 	bindings = <&kp F10>; \
-	key-positions = <BRR BRI RIT ROT>; \
+	key-positions = <14 12 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_U { \
 	timeout-ms = <200>; \
 	bindings = <&kp U>; \
-	key-positions = <TLP TLM>; \
+	key-positions = <0 2>; \
 	layers = <0>; \
 }; \
 combo_li_U { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(U)>; \
-	key-positions = <TLP TLM LIT>; \
+	key-positions = <0 2 17>; \
 	layers = <0>; \
 }; \
 combo_lo_U { \
 	timeout-ms = <200>; \
 	bindings = <&kp EXCL>; \
-	key-positions = <TLP TLM LOT>; \
+	key-positions = <0 2 16>; \
 	layers = <0>; \
 }; \
 combo_lb_U { \
 	timeout-ms = <200>; \
 	bindings = <&kp F11>; \
-	key-positions = <TLP TLM LIT LOT>; \
+	key-positions = <0 2 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_U { \
 	timeout-ms = <200>; \
 	bindings = <&kp U>; \
-	key-positions = <TRP TRM>; \
+	key-positions = <7 5>; \
 	layers = <0>; \
 }; \
 combo_ri_U { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(U)>; \
-	key-positions = <TRP TRM RIT>; \
+	key-positions = <7 5 18>; \
 	layers = <0>; \
 }; \
 combo_ro_U { \
 	timeout-ms = <200>; \
 	bindings = <&kp EXCL>; \
-	key-positions = <TRP TRM ROT>; \
+	key-positions = <7 5 19>; \
 	layers = <0>; \
 }; \
 combo_rb_U { \
 	timeout-ms = <200>; \
 	bindings = <&kp F11>; \
-	key-positions = <TRP TRM RIT ROT>; \
+	key-positions = <7 5 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_P { \
 	timeout-ms = <200>; \
 	bindings = <&kp P>; \
-	key-positions = <TLR TLI>; \
+	key-positions = <1 3>; \
 	layers = <0>; \
 }; \
 combo_li_P { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(P)>; \
-	key-positions = <TLR TLI LIT>; \
+	key-positions = <1 3 17>; \
 	layers = <0>; \
 }; \
 combo_lo_P { \
 	timeout-ms = <200>; \
 	bindings = <&kp AT>; \
-	key-positions = <TLR TLI LOT>; \
+	key-positions = <1 3 16>; \
 	layers = <0>; \
 }; \
 combo_lb_P { \
 	timeout-ms = <200>; \
 	bindings = <&kp F12>; \
-	key-positions = <TLR TLI LIT LOT>; \
+	key-positions = <1 3 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_P { \
 	timeout-ms = <200>; \
 	bindings = <&kp P>; \
-	key-positions = <TRR TRI>; \
+	key-positions = <6 4>; \
 	layers = <0>; \
 }; \
 combo_ri_P { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(P)>; \
-	key-positions = <TRR TRI RIT>; \
+	key-positions = <6 4 18>; \
 	layers = <0>; \
 }; \
 combo_ro_P { \
 	timeout-ms = <200>; \
 	bindings = <&kp AT>; \
-	key-positions = <TRR TRI ROT>; \
+	key-positions = <6 4 19>; \
 	layers = <0>; \
 }; \
 combo_rb_P { \
 	timeout-ms = <200>; \
 	bindings = <&kp F12>; \
-	key-positions = <TRR TRI RIT ROT>; \
+	key-positions = <6 4 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_COMMA { \
 	timeout-ms = <200>; \
 	bindings = <&kp COMMA>; \
-	key-positions = <TLP BLI>; \
+	key-positions = <0 11>; \
 	layers = <0>; \
 }; \
 combo_li_COMMA { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(COMMA)>; \
-	key-positions = <TLP BLI LIT>; \
+	key-positions = <0 11 17>; \
 	layers = <0>; \
 }; \
 combo_lo_COMMA { \
 	timeout-ms = <200>; \
 	bindings = <&kp HASH>; \
-	key-positions = <TLP BLI LOT>; \
+	key-positions = <0 11 16>; \
 	layers = <0>; \
 }; \
 combo_lb_COMMA { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLP BLI LIT LOT>; \
+	key-positions = <0 11 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_COMMA { \
 	timeout-ms = <200>; \
 	bindings = <&kp COMMA>; \
-	key-positions = <TRP BRI>; \
+	key-positions = <7 12>; \
 	layers = <0>; \
 }; \
 combo_ri_COMMA { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(COMMA)>; \
-	key-positions = <TRP BRI RIT>; \
+	key-positions = <7 12 18>; \
 	layers = <0>; \
 }; \
 combo_ro_COMMA { \
 	timeout-ms = <200>; \
 	bindings = <&kp HASH>; \
-	key-positions = <TRP BRI ROT>; \
+	key-positions = <7 12 19>; \
 	layers = <0>; \
 }; \
 combo_rb_COMMA { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRP BRI RIT ROT>; \
+	key-positions = <7 12 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_X { \
 	timeout-ms = <200>; \
 	bindings = <&kp X>; \
-	key-positions = <BLP TLI>; \
+	key-positions = <8 3>; \
 	layers = <0>; \
 }; \
 combo_li_X { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(X)>; \
-	key-positions = <BLP TLI LIT>; \
+	key-positions = <8 3 17>; \
 	layers = <0>; \
 }; \
 combo_lo_X { \
 	timeout-ms = <200>; \
 	bindings = <&kp DLLR>; \
-	key-positions = <BLP TLI LOT>; \
+	key-positions = <8 3 16>; \
 	layers = <0>; \
 }; \
 combo_lb_X { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <BLP TLI LIT LOT>; \
+	key-positions = <8 3 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_X { \
 	timeout-ms = <200>; \
 	bindings = <&kp X>; \
-	key-positions = <BRP TRI>; \
+	key-positions = <15 4>; \
 	layers = <0>; \
 }; \
 combo_ri_X { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(X)>; \
-	key-positions = <BRP TRI RIT>; \
+	key-positions = <15 4 18>; \
 	layers = <0>; \
 }; \
 combo_ro_X { \
 	timeout-ms = <200>; \
 	bindings = <&kp DLLR>; \
-	key-positions = <BRP TRI ROT>; \
+	key-positions = <15 4 19>; \
 	layers = <0>; \
 }; \
 combo_rb_X { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <BRP TRI RIT ROT>; \
+	key-positions = <15 4 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_Q { \
 	timeout-ms = <200>; \
 	bindings = <&kp Q>; \
-	key-positions = <TLP BLM>; \
+	key-positions = <0 10>; \
 	layers = <0>; \
 }; \
 combo_li_Q { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(Q)>; \
-	key-positions = <TLP BLM LIT>; \
+	key-positions = <0 10 17>; \
 	layers = <0>; \
 }; \
 combo_lo_Q { \
 	timeout-ms = <200>; \
 	bindings = <&kp PRCNT>; \
-	key-positions = <TLP BLM LOT>; \
+	key-positions = <0 10 16>; \
 	layers = <0>; \
 }; \
 combo_lb_Q { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLP BLM LIT LOT>; \
+	key-positions = <0 10 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_Q { \
 	timeout-ms = <200>; \
 	bindings = <&kp Q>; \
-	key-positions = <TRP BRM>; \
+	key-positions = <7 13>; \
 	layers = <0>; \
 }; \
 combo_ri_Q { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(Q)>; \
-	key-positions = <TRP BRM RIT>; \
+	key-positions = <7 13 18>; \
 	layers = <0>; \
 }; \
 combo_ro_Q { \
 	timeout-ms = <200>; \
 	bindings = <&kp PRCNT>; \
-	key-positions = <TRP BRM ROT>; \
+	key-positions = <7 13 19>; \
 	layers = <0>; \
 }; \
 combo_rb_Q { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRP BRM RIT ROT>; \
+	key-positions = <7 13 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_LBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LBKT>; \
-	key-positions = <BLR TLI>; \
+	key-positions = <9 3>; \
 	layers = <0>; \
 }; \
 combo_li_LBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(LBKT)>; \
-	key-positions = <BLR TLI LIT>; \
+	key-positions = <9 3 17>; \
 	layers = <0>; \
 }; \
 combo_lo_LBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp CARET>; \
-	key-positions = <BLR TLI LOT>; \
+	key-positions = <9 3 16>; \
 	layers = <0>; \
 }; \
 combo_lb_LBKT { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <BLR TLI LIT LOT>; \
+	key-positions = <9 3 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_LBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LBKT>; \
-	key-positions = <BRR TRI>; \
+	key-positions = <14 4>; \
 	layers = <0>; \
 }; \
 combo_ri_LBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(LBKT)>; \
-	key-positions = <BRR TRI RIT>; \
+	key-positions = <14 4 18>; \
 	layers = <0>; \
 }; \
 combo_ro_LBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp CARET>; \
-	key-positions = <BRR TRI ROT>; \
+	key-positions = <14 4 19>; \
 	layers = <0>; \
 }; \
 combo_rb_LBKT { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <BRR TRI RIT ROT>; \
+	key-positions = <14 4 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_SEMI { \
 	timeout-ms = <200>; \
 	bindings = <&kp SEMI>; \
-	key-positions = <BLP TLM>; \
+	key-positions = <8 2>; \
 	layers = <0>; \
 }; \
 combo_li_SEMI { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(SEMI)>; \
-	key-positions = <BLP TLM LIT>; \
+	key-positions = <8 2 17>; \
 	layers = <0>; \
 }; \
 combo_lo_SEMI { \
 	timeout-ms = <200>; \
 	bindings = <&kp AMPS>; \
-	key-positions = <BLP TLM LOT>; \
+	key-positions = <8 2 16>; \
 	layers = <0>; \
 }; \
 combo_lb_SEMI { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <BLP TLM LIT LOT>; \
+	key-positions = <8 2 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_SEMI { \
 	timeout-ms = <200>; \
 	bindings = <&kp SEMI>; \
-	key-positions = <BRP TRM>; \
+	key-positions = <15 5>; \
 	layers = <0>; \
 }; \
 combo_ri_SEMI { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(SEMI)>; \
-	key-positions = <BRP TRM RIT>; \
+	key-positions = <15 5 18>; \
 	layers = <0>; \
 }; \
 combo_ro_SEMI { \
 	timeout-ms = <200>; \
 	bindings = <&kp AMPS>; \
-	key-positions = <BRP TRM ROT>; \
+	key-positions = <15 5 19>; \
 	layers = <0>; \
 }; \
 combo_rb_SEMI { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <BRP TRM RIT ROT>; \
+	key-positions = <15 5 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_I { \
 	timeout-ms = <200>; \
 	bindings = <&kp I>; \
-	key-positions = <TLR BLI>; \
+	key-positions = <1 11>; \
 	layers = <0>; \
 }; \
 combo_li_I { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(I)>; \
-	key-positions = <TLR BLI LIT>; \
+	key-positions = <1 11 17>; \
 	layers = <0>; \
 }; \
 combo_lo_I { \
 	timeout-ms = <200>; \
 	bindings = <&kp STAR>; \
-	key-positions = <TLR BLI LOT>; \
+	key-positions = <1 11 16>; \
 	layers = <0>; \
 }; \
 combo_lb_I { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLR BLI LIT LOT>; \
+	key-positions = <1 11 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_I { \
 	timeout-ms = <200>; \
 	bindings = <&kp I>; \
-	key-positions = <TRR BRI>; \
+	key-positions = <6 12>; \
 	layers = <0>; \
 }; \
 combo_ri_I { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(I)>; \
-	key-positions = <TRR BRI RIT>; \
+	key-positions = <6 12 18>; \
 	layers = <0>; \
 }; \
 combo_ro_I { \
 	timeout-ms = <200>; \
 	bindings = <&kp STAR>; \
-	key-positions = <TRR BRI ROT>; \
+	key-positions = <6 12 19>; \
 	layers = <0>; \
 }; \
 combo_rb_I { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRR BRI RIT ROT>; \
+	key-positions = <6 12 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_DOT { \
 	timeout-ms = <200>; \
 	bindings = <&kp DOT>; \
-	key-positions = <TLP BLR>; \
+	key-positions = <0 9>; \
 	layers = <0>; \
 }; \
 combo_li_DOT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(DOT)>; \
-	key-positions = <TLP BLR LIT>; \
+	key-positions = <0 9 17>; \
 	layers = <0>; \
 }; \
 combo_lo_DOT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LPAR>; \
-	key-positions = <TLP BLR LOT>; \
+	key-positions = <0 9 16>; \
 	layers = <0>; \
 }; \
 combo_lb_DOT { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLP BLR LIT LOT>; \
+	key-positions = <0 9 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_DOT { \
 	timeout-ms = <200>; \
 	bindings = <&kp DOT>; \
-	key-positions = <TRP BRR>; \
+	key-positions = <7 14>; \
 	layers = <0>; \
 }; \
 combo_ri_DOT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(DOT)>; \
-	key-positions = <TRP BRR RIT>; \
+	key-positions = <7 14 18>; \
 	layers = <0>; \
 }; \
 combo_ro_DOT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LPAR>; \
-	key-positions = <TRP BRR ROT>; \
+	key-positions = <7 14 19>; \
 	layers = <0>; \
 }; \
 combo_rb_DOT { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRP BRR RIT ROT>; \
+	key-positions = <7 14 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_W { \
 	timeout-ms = <200>; \
 	bindings = <&kp W>; \
-	key-positions = <TLI BLM>; \
+	key-positions = <3 10>; \
 	layers = <0>; \
 }; \
 combo_li_W { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(W)>; \
-	key-positions = <TLI BLM LIT>; \
+	key-positions = <3 10 17>; \
 	layers = <0>; \
 }; \
 combo_lo_W { \
 	timeout-ms = <200>; \
 	bindings = <&kp RPAR>; \
-	key-positions = <TLI BLM LOT>; \
+	key-positions = <3 10 16>; \
 	layers = <0>; \
 }; \
 combo_lb_W { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLI BLM LIT LOT>; \
+	key-positions = <3 10 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_W { \
 	timeout-ms = <200>; \
 	bindings = <&kp W>; \
-	key-positions = <TRI BRM>; \
+	key-positions = <4 13>; \
 	layers = <0>; \
 }; \
 combo_ri_W { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(W)>; \
-	key-positions = <TRI BRM RIT>; \
+	key-positions = <4 13 18>; \
 	layers = <0>; \
 }; \
 combo_ro_W { \
 	timeout-ms = <200>; \
 	bindings = <&kp RPAR>; \
-	key-positions = <TRI BRM ROT>; \
+	key-positions = <4 13 19>; \
 	layers = <0>; \
 }; \
 combo_rb_W { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRI BRM RIT ROT>; \
+	key-positions = <4 13 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_O { \
 	timeout-ms = <200>; \
 	bindings = <&kp O>; \
-	key-positions = <TLR BLM>; \
+	key-positions = <1 10>; \
 	layers = <0>; \
 }; \
 combo_li_O { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(O)>; \
-	key-positions = <TLR BLM LIT>; \
+	key-positions = <1 10 17>; \
 	layers = <0>; \
 }; \
 combo_lo_O { \
 	timeout-ms = <200>; \
 	bindings = <&kp SLASH>; \
-	key-positions = <TLR BLM LOT>; \
+	key-positions = <1 10 16>; \
 	layers = <0>; \
 }; \
 combo_lb_O { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLR BLM LIT LOT>; \
+	key-positions = <1 10 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_O { \
 	timeout-ms = <200>; \
 	bindings = <&kp O>; \
-	key-positions = <TRR BRM>; \
+	key-positions = <6 13>; \
 	layers = <0>; \
 }; \
 combo_ri_O { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(O)>; \
-	key-positions = <TRR BRM RIT>; \
+	key-positions = <6 13 18>; \
 	layers = <0>; \
 }; \
 combo_ro_O { \
 	timeout-ms = <200>; \
 	bindings = <&kp SLASH>; \
-	key-positions = <TRR BRM ROT>; \
+	key-positions = <6 13 19>; \
 	layers = <0>; \
 }; \
 combo_rb_O { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRR BRM RIT ROT>; \
+	key-positions = <6 13 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_SQT { \
 	timeout-ms = <200>; \
 	bindings = <&kp SQT>; \
-	key-positions = <TLM BLR>; \
+	key-positions = <2 9>; \
 	layers = <0>; \
 }; \
 combo_li_SQT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(SQT)>; \
-	key-positions = <TLM BLR LIT>; \
+	key-positions = <2 9 17>; \
 	layers = <0>; \
 }; \
 combo_lo_SQT { \
 	timeout-ms = <200>; \
 	bindings = <&kp QMARK>; \
-	key-positions = <TLM BLR LOT>; \
+	key-positions = <2 9 16>; \
 	layers = <0>; \
 }; \
 combo_lb_SQT { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLM BLR LIT LOT>; \
+	key-positions = <2 9 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_SQT { \
 	timeout-ms = <200>; \
 	bindings = <&kp SQT>; \
-	key-positions = <TRM BRR>; \
+	key-positions = <5 14>; \
 	layers = <0>; \
 }; \
 combo_ri_SQT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(SQT)>; \
-	key-positions = <TRM BRR RIT>; \
+	key-positions = <5 14 18>; \
 	layers = <0>; \
 }; \
 combo_ro_SQT { \
 	timeout-ms = <200>; \
 	bindings = <&kp QMARK>; \
-	key-positions = <TRM BRR ROT>; \
+	key-positions = <5 14 19>; \
 	layers = <0>; \
 }; \
 combo_rb_SQT { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRM BRR RIT ROT>; \
+	key-positions = <5 14 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_A { \
 	timeout-ms = <200>; \
 	bindings = <&kp A>; \
-	key-positions = <TLM BLI>; \
+	key-positions = <2 11>; \
 	layers = <0>; \
 }; \
 combo_li_A { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(A)>; \
-	key-positions = <TLM BLI LIT>; \
+	key-positions = <2 11 17>; \
 	layers = <0>; \
 }; \
 combo_lo_A { \
 	timeout-ms = <200>; \
 	bindings = <&kp MINUS>; \
-	key-positions = <TLM BLI LOT>; \
+	key-positions = <2 11 16>; \
 	layers = <0>; \
 }; \
 combo_lb_A { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLM BLI LIT LOT>; \
+	key-positions = <2 11 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_A { \
 	timeout-ms = <200>; \
 	bindings = <&kp A>; \
-	key-positions = <TRM BRI>; \
+	key-positions = <5 12>; \
 	layers = <0>; \
 }; \
 combo_ri_A { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(A)>; \
-	key-positions = <TRM BRI RIT>; \
+	key-positions = <5 12 18>; \
 	layers = <0>; \
 }; \
 combo_ro_A { \
 	timeout-ms = <200>; \
 	bindings = <&kp MINUS>; \
-	key-positions = <TRM BRI ROT>; \
+	key-positions = <5 12 19>; \
 	layers = <0>; \
 }; \
 combo_rb_A { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRM BRI RIT ROT>; \
+	key-positions = <5 12 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_RBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp RBKT>; \
-	key-positions = <TLR BLP>; \
+	key-positions = <1 8>; \
 	layers = <0>; \
 }; \
 combo_li_RBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(RBKT)>; \
-	key-positions = <TLR BLP LIT>; \
+	key-positions = <1 8 17>; \
 	layers = <0>; \
 }; \
 combo_lo_RBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp UNDER>; \
-	key-positions = <TLR BLP LOT>; \
+	key-positions = <1 8 16>; \
 	layers = <0>; \
 }; \
 combo_lb_RBKT { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLR BLP LIT LOT>; \
+	key-positions = <1 8 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_RBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp RBKT>; \
-	key-positions = <TRR BRP>; \
+	key-positions = <6 15>; \
 	layers = <0>; \
 }; \
 combo_ri_RBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(RBKT)>; \
-	key-positions = <TRR BRP RIT>; \
+	key-positions = <6 15 18>; \
 	layers = <0>; \
 }; \
 combo_ro_RBKT { \
 	timeout-ms = <200>; \
 	bindings = <&kp UNDER>; \
-	key-positions = <TRR BRP ROT>; \
+	key-positions = <6 15 19>; \
 	layers = <0>; \
 }; \
 combo_rb_RBKT { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRR BRP RIT ROT>; \
+	key-positions = <6 15 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_GRAVE { \
 	timeout-ms = <200>; \
 	bindings = <&kp GRAVE>; \
-	key-positions = <TLR TLM TLI>; \
+	key-positions = <1 2 3>; \
 	layers = <0>; \
 }; \
 combo_li_GRAVE { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(GRAVE)>; \
-	key-positions = <TLR TLM TLI LIT>; \
+	key-positions = <1 2 3 17>; \
 	layers = <0>; \
 }; \
 combo_lo_GRAVE { \
 	timeout-ms = <200>; \
 	bindings = <&kp EQUAL>; \
-	key-positions = <TLR TLM TLI LOT>; \
+	key-positions = <1 2 3 16>; \
 	layers = <0>; \
 }; \
 combo_lb_GRAVE { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLR TLM TLI LIT LOT>; \
+	key-positions = <1 2 3 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_GRAVE { \
 	timeout-ms = <200>; \
 	bindings = <&kp GRAVE>; \
-	key-positions = <TRR TRM TRI>; \
+	key-positions = <6 5 4>; \
 	layers = <0>; \
 }; \
 combo_ri_GRAVE { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(GRAVE)>; \
-	key-positions = <TRR TRM TRI RIT>; \
+	key-positions = <6 5 4 18>; \
 	layers = <0>; \
 }; \
 combo_ro_GRAVE { \
 	timeout-ms = <200>; \
 	bindings = <&kp EQUAL>; \
-	key-positions = <TRR TRM TRI ROT>; \
+	key-positions = <6 5 4 19>; \
 	layers = <0>; \
 }; \
 combo_rb_GRAVE { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRR TRM TRI RIT ROT>; \
+	key-positions = <6 5 4 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_NUBS { \
 	timeout-ms = <200>; \
 	bindings = <&kp NUBS>; \
-	key-positions = <BLR BLM BLI>; \
+	key-positions = <9 10 11>; \
 	layers = <0>; \
 }; \
 combo_li_NUBS { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(NUBS)>; \
-	key-positions = <BLR BLM BLI LIT>; \
+	key-positions = <9 10 11 17>; \
 	layers = <0>; \
 }; \
 combo_lo_NUBS { \
 	timeout-ms = <200>; \
 	bindings = <&kp PLUS>; \
-	key-positions = <BLR BLM BLI LOT>; \
+	key-positions = <9 10 11 16>; \
 	layers = <0>; \
 }; \
 combo_lb_NUBS { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <BLR BLM BLI LIT LOT>; \
+	key-positions = <9 10 11 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_NUBS { \
 	timeout-ms = <200>; \
 	bindings = <&kp NUBS>; \
-	key-positions = <BRR BRM BRI>; \
+	key-positions = <14 13 12>; \
 	layers = <0>; \
 }; \
 combo_ri_NUBS { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(NUBS)>; \
-	key-positions = <BRR BRM BRI RIT>; \
+	key-positions = <14 13 12 18>; \
 	layers = <0>; \
 }; \
 combo_ro_NUBS { \
 	timeout-ms = <200>; \
 	bindings = <&kp PLUS>; \
-	key-positions = <BRR BRM BRI ROT>; \
+	key-positions = <14 13 12 19>; \
 	layers = <0>; \
 }; \
 combo_rb_NUBS { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <BRR BRM BRI RIT ROT>; \
+	key-positions = <14 13 12 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_DEL { \
 	timeout-ms = <200>; \
 	bindings = <&kp DEL>; \
-	key-positions = <TLR BLR>; \
+	key-positions = <1 9>; \
 	layers = <0>; \
 }; \
 combo_li_DEL { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLR BLR LIT>; \
+	key-positions = <1 9 17>; \
 	layers = <0>; \
 }; \
 combo_lo_DEL { \
 	timeout-ms = <200>; \
 	bindings = <&kp LC(DEL)>; \
-	key-positions = <TLR BLR LOT>; \
+	key-positions = <1 9 16>; \
 	layers = <0>; \
 }; \
 combo_lb_DEL { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLR BLR LIT LOT>; \
+	key-positions = <1 9 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_DEL { \
 	timeout-ms = <200>; \
 	bindings = <&kp DEL>; \
-	key-positions = <TRR BRR>; \
+	key-positions = <6 14>; \
 	layers = <0>; \
 }; \
 combo_ri_DEL { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRR BRR RIT>; \
+	key-positions = <6 14 18>; \
 	layers = <0>; \
 }; \
 combo_ro_DEL { \
 	timeout-ms = <200>; \
 	bindings = <&kp LC(DEL)>; \
-	key-positions = <TRR BRR ROT>; \
+	key-positions = <6 14 19>; \
 	layers = <0>; \
 }; \
 combo_rb_DEL { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRR BRR RIT ROT>; \
+	key-positions = <6 14 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_ESC { \
 	timeout-ms = <200>; \
 	bindings = <&kp ESC>; \
-	key-positions = <TLM BLM>; \
+	key-positions = <2 10>; \
 	layers = <0>; \
 }; \
 combo_li_ESC { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLM BLM LIT>; \
+	key-positions = <2 10 17>; \
 	layers = <0>; \
 }; \
 combo_lo_ESC { \
 	timeout-ms = <200>; \
 	bindings = <&kp N1>; \
-	key-positions = <TLM BLM LOT>; \
+	key-positions = <2 10 16>; \
 	layers = <0>; \
 }; \
 combo_lb_ESC { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLM BLM LIT LOT>; \
+	key-positions = <2 10 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_ESC { \
 	timeout-ms = <200>; \
 	bindings = <&kp ESC>; \
-	key-positions = <TRM BRM>; \
+	key-positions = <5 13>; \
 	layers = <0>; \
 }; \
 combo_ri_ESC { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRM BRM RIT>; \
+	key-positions = <5 13 18>; \
 	layers = <0>; \
 }; \
 combo_ro_ESC { \
 	timeout-ms = <200>; \
 	bindings = <&kp N1>; \
-	key-positions = <TRM BRM ROT>; \
+	key-positions = <5 13 19>; \
 	layers = <0>; \
 }; \
 combo_rb_ESC { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRM BRM RIT ROT>; \
+	key-positions = <5 13 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_TAB { \
 	timeout-ms = <200>; \
 	bindings = <&kp TAB>; \
-	key-positions = <TLP BLP>; \
+	key-positions = <0 8>; \
 	layers = <0>; \
 }; \
 combo_li_TAB { \
 	timeout-ms = <200>; \
 	bindings = <&kp LA(TAB)>; \
-	key-positions = <TLP BLP LIT>; \
+	key-positions = <0 8 17>; \
 	layers = <0>; \
 }; \
 combo_lo_TAB { \
 	timeout-ms = <200>; \
 	bindings = <&kp LC(TAB)>; \
-	key-positions = <TLP BLP LOT>; \
+	key-positions = <0 8 16>; \
 	layers = <0>; \
 }; \
 combo_lb_TAB { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLP BLP LIT LOT>; \
+	key-positions = <0 8 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_TAB { \
 	timeout-ms = <200>; \
 	bindings = <&kp TAB>; \
-	key-positions = <TRP BRP>; \
+	key-positions = <7 15>; \
 	layers = <0>; \
 }; \
 combo_ri_TAB { \
 	timeout-ms = <200>; \
 	bindings = <&kp LA(TAB)>; \
-	key-positions = <TRP BRP RIT>; \
+	key-positions = <7 15 18>; \
 	layers = <0>; \
 }; \
 combo_ro_TAB { \
 	timeout-ms = <200>; \
 	bindings = <&kp LC(TAB)>; \
-	key-positions = <TRP BRP ROT>; \
+	key-positions = <7 15 19>; \
 	layers = <0>; \
 }; \
 combo_rb_TAB { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRP BRP RIT ROT>; \
+	key-positions = <7 15 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_ENTER { \
 	timeout-ms = <200>; \
 	bindings = <&kp ENTER>; \
-	key-positions = <TLI BLI>; \
+	key-positions = <3 11>; \
 	layers = <0>; \
 }; \
 combo_li_ENTER { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(ENTER)>; \
-	key-positions = <TLI BLI LIT>; \
+	key-positions = <3 11 17>; \
 	layers = <0>; \
 }; \
 combo_lo_ENTER { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLI BLI LOT>; \
+	key-positions = <3 11 16>; \
 	layers = <0>; \
 }; \
 combo_lb_ENTER { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLI BLI LIT LOT>; \
+	key-positions = <3 11 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_ENTER { \
 	timeout-ms = <200>; \
 	bindings = <&kp ENTER>; \
-	key-positions = <TRI BRI>; \
+	key-positions = <4 12>; \
 	layers = <0>; \
 }; \
 combo_ri_ENTER { \
 	timeout-ms = <200>; \
 	bindings = <&kp LS(ENTER)>; \
-	key-positions = <TRI BRI RIT>; \
+	key-positions = <4 12 18>; \
 	layers = <0>; \
 }; \
 combo_ro_ENTER { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRI BRI ROT>; \
+	key-positions = <4 12 19>; \
 	layers = <0>; \
 }; \
 combo_rb_ENTER { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRI BRI RIT ROT>; \
+	key-positions = <4 12 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_boot { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLP TLR TLM TLI>; \
+	key-positions = <0 1 2 3>; \
 	layers = <0>; \
 }; \
 combo_li_boot { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TLP TLR TLM TLI LIT>; \
+	key-positions = <0 1 2 3 17>; \
 	layers = <0>; \
 }; \
 combo_lo_boot { \
 	timeout-ms = <200>; \
 	bindings = <&ext_power EP_OFF>; \
-	key-positions = <TLP TLR TLM TLI LOT>; \
+	key-positions = <0 1 2 3 16>; \
 	layers = <0>; \
 }; \
 combo_lb_boot { \
 	timeout-ms = <200>; \
 	bindings = <&bootloader>; \
-	key-positions = <TLP TLR TLM TLI LIT LOT>; \
+	key-positions = <0 1 2 3 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_boot { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRP TRR TRM TRI>; \
+	key-positions = <7 6 5 4>; \
 	layers = <0>; \
 }; \
 combo_ri_boot { \
 	timeout-ms = <200>; \
 	bindings = <&none>; \
-	key-positions = <TRP TRR TRM TRI RIT>; \
+	key-positions = <7 6 5 4 18>; \
 	layers = <0>; \
 }; \
 combo_ro_boot { \
 	timeout-ms = <200>; \
 	bindings = <&ext_power EP_OFF>; \
-	key-positions = <TRP TRR TRM TRI ROT>; \
+	key-positions = <7 6 5 4 19>; \
 	layers = <0>; \
 }; \
 combo_rb_boot { \
 	timeout-ms = <200>; \
 	bindings = <&bootloader>; \
-	key-positions = <TRP TRR TRM TRI RIT ROT>; \
+	key-positions = <7 6 5 4 18 19>; \
 	layers = <0>; \
 };
 
 combo_l_BT { \
 	timeout-ms = <200>; \
 	bindings = <&bt BT_SEL 0>; \
-	key-positions = <BLP BLR BLM BLI>; \
+	key-positions = <8 9 10 11>; \
 	layers = <0>; \
 }; \
 combo_li_BT { \
 	timeout-ms = <200>; \
 	bindings = <&bt BT_SEL 1>; \
-	key-positions = <BLP BLR BLM BLI LIT>; \
+	key-positions = <8 9 10 11 17>; \
 	layers = <0>; \
 }; \
 combo_lo_BT { \
 	timeout-ms = <200>; \
 	bindings = <&bt BT_SEL 2>; \
-	key-positions = <BLP BLR BLM BLI LOT>; \
+	key-positions = <8 9 10 11 16>; \
 	layers = <0>; \
 }; \
 combo_lb_BT { \
 	timeout-ms = <200>; \
 	bindings = <&bt BT_CLR>; \
-	key-positions = <BLP BLR BLM BLI LIT LOT>; \
+	key-positions = <8 9 10 11 17 16>; \
 	layers = <0>; \
 }; \
 combo_r_BT { \
 	timeout-ms = <200>; \
 	bindings = <&bt BT_SEL 0>; \
-	key-positions = <BRP BRR BRM BRI>; \
+	key-positions = <15 14 13 12>; \
 	layers = <0>; \
 }; \
 combo_ri_BT { \
 	timeout-ms = <200>; \
 	bindings = <&bt BT_SEL 1>; \
-	key-positions = <BRP BRR BRM BRI RIT>; \
+	key-positions = <15 14 13 12 18>; \
 	layers = <0>; \
 }; \
 combo_ro_BT { \
 	timeout-ms = <200>; \
 	bindings = <&bt BT_SEL 2>; \
-	key-positions = <BRP BRR BRM BRI ROT>; \
+	key-positions = <15 14 13 12 19>; \
 	layers = <0>; \
 }; \
 combo_rb_BT { \
 	timeout-ms = <200>; \
 	bindings = <&bt BT_CLR>; \
-	key-positions = <BRP BRR BRM BRI RIT ROT>; \
+	key-positions = <15 14 13 12 18 19>; \
 	layers = <0>; \
 };
