@@ -62,7 +62,7 @@
       layers = <COMBO_LAYERS>; \
     };
 
-    combo_l_bspc { \;
+    combo_l_bspc { \
       timeout-ms = <COMBO_TIMEOUT>; \
       bindings = <&kp BSPC>; \
       key-positions = <LOT>; \
