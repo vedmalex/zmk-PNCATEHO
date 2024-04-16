@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 // CONFIG
-#define COMBO_TIMEOUT 70
+#define COMBO_TIMEOUT 200
 #define COMBO_LAYERS 0
 #define STICKY_TIMEOUT 500
 
