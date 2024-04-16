@@ -8,10 +8,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/ext_power.h>
 
 // CONFIG
-#define COMBO_TIMEOUT 70
+#define COMBO_TIMEOUT 200
 #define COMBO_LAYERS 0
 #define STICKY_TIMEOUT 500
 
@@ -28,16 +27,16 @@
 #define LIT 17 // I-THUMB
 
 // RIGHT SIDE
-#define TRP 4 // TOP
-#define TRR 5 // TOP
-#define TRM 6 // TOP
-#define TRI 7 // TOP
-#define BRP 12 // BOTTOM
-#define BRR 13 // BOTTOM
-#define BRM 14 // BOTTOM
-#define BRI 15 // BOTTOM
-#define ROT 18 // O-THUMB
-#define RIT 19 // I-THUMB
+#define TRP 7 // TOP
+#define TRR 6 // TOP
+#define TRM 5 // TOP
+#define TRI 4 // TOP
+#define BRP 15 // BOTTOM
+#define BRR 14 // BOTTOM
+#define BRM 13 // BOTTOM
+#define BRI 12 // BOTTOM
+#define ROT 19 // O-THUMB
+#define RIT 18 // I-THUMB
 
 &sk {
     release-after-ms = <STICKY_TIMEOUT>;
@@ -55,9 +54,9 @@
 
     default_layer {
       bindings = <
-        &none &none &none &none               &none &none &none &none     
-        &none &none &none &none               &none &none &none &none     
-                          &none &none   &none &none &none &none     
+        &none &none &none &none               &none &none &none &none
+        &none &none &none &none               &none &none &none &none
+                          &none &none   &none &none
       >;
     };
   };
