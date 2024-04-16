@@ -56,49 +56,49 @@ TCOMBO("BT,     &bt BT_SEL 0,&bt BT_SEL 1,  &bt BT_SEL 2,&bt BT_CLR,    BLP BLR 
 
 
 function template([NAME, BINDINGS, INNER_BINDINGS, OUTER_BINDINGS,  BOTH_BINDINGS, LEFT_KEYPOS, RIGHT_KEYPOS]) {
-  return `combo_l_##${NAME} { \\
+  return `combo_l_${NAME} { \\
 	timeout-ms = <${COMBO_TIMEOUT}>; \\
 	bindings = <${BINDINGS}>; \\
 	key-positions = <${LEFT_KEYPOS}>; \\
 	layers = <${COMBO_LAYERS}>; \\
 }; \\
-combo_li_##${NAME} { \\
+combo_li_${NAME} { \\
 	timeout-ms = <${COMBO_TIMEOUT}>; \\
 	bindings = <${INNER_BINDINGS}>; \\
 	key-positions = <${LEFT_KEYPOS} LIT>; \\
 	layers = <${COMBO_LAYERS}>; \\
 }; \\
-combo_lo_##${NAME} { \\
+combo_lo_${NAME} { \\
 	timeout-ms = <${COMBO_TIMEOUT}>; \\
 	bindings = <${OUTER_BINDINGS}>; \\
 	key-positions = <${LEFT_KEYPOS} LOT>; \\
 	layers = <${COMBO_LAYERS}>; \\
 }; \\
-combo_lb_##${NAME} { \\
+combo_lb_${NAME} { \\
 	timeout-ms = <${COMBO_TIMEOUT}>; \\
 	bindings = <${BOTH_BINDINGS}>; \\
 	key-positions = <${LEFT_KEYPOS} LIT LOT>; \\
 	layers = <${COMBO_LAYERS}>; \\
 }; \\
-combo_r_##${NAME} { \\
+combo_r_${NAME} { \\
 	timeout-ms = <${COMBO_TIMEOUT}>; \\
 	bindings = <${BINDINGS}>; \\
 	key-positions = <${RIGHT_KEYPOS}>; \\
 	layers = <${COMBO_LAYERS}>; \\
 }; \\
-combo_ri_##${NAME} { \\
+combo_ri_${NAME} { \\
 	timeout-ms = <${COMBO_TIMEOUT}>; \\
 	bindings = <${INNER_BINDINGS}>; \\
 	key-positions = <${RIGHT_KEYPOS} RIT>; \\
 	layers = <${COMBO_LAYERS}>; \\
 }; \\
-combo_ro_##${NAME} { \\
+combo_ro_${NAME} { \\
 	timeout-ms = <${COMBO_TIMEOUT}>; \\
 	bindings = <${OUTER_BINDINGS}>; \\
 	key-positions = <${RIGHT_KEYPOS} ROT>; \\
 	layers = <${COMBO_LAYERS}>; \\
 }; \\
-combo_rb_##${NAME} { \\
+combo_rb_${NAME} { \\
 	timeout-ms = <${COMBO_TIMEOUT}>; \\
 	bindings = <${BOTH_BINDINGS}>; \\
 	key-positions = <${RIGHT_KEYPOS} RIT ROT>; \\
