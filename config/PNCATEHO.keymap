@@ -49,31 +49,31 @@
     compatible = "zmk,combos";
 
     combo_l_space { \
-      timeout-ms = <COMBO_TIMEOUT>; \
+      timeout-ms = <200>; \
       bindings = <&kp SPACE>; \
-      key-positions = <LIT>; \
-      layers = <COMBO_LAYERS>; \
+      key-positions = <17>; \
+      layers = <0>; \
     };
 
     combo_r_space { \
-      timeout-ms = <COMBO_TIMEOUT>; \
+      timeout-ms = <200>; \
       bindings = <&kp SPACE>; \
-      key-positions = <RIT>; \
-      layers = <COMBO_LAYERS>; \
+      key-positions = <18>; \
+      layers = <0>; \
     };
 
     combo_l_bspc { \
-      timeout-ms = <COMBO_TIMEOUT>; \
+      timeout-ms = <200>; \
       bindings = <&kp BSPC>; \
-      key-positions = <LOT>; \
-      layers = <COMBO_LAYERS>; \
+      key-positions = <16>; \
+      layers = <0>; \
     };
 
     combo_r_bspc { \
-      timeout-ms = <COMBO_TIMEOUT>; \
+      timeout-ms = <200>; \
       bindings = <&kp BSPC>; \
-      key-positions = <ROT>; \
-      layers = <COMBO_LAYERS>; \
+      key-positions = <19>; \
+      layers = <0>; \
     };
 
     combo_l_B { \
