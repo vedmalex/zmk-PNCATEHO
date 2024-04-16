@@ -48,35 +48,14 @@ combo_rb_##NAME { \
 	layers = <COMBO_LAYERS>; \
 };
 
-combo_l_space { \
-	timeout-ms = <COMBO_TIMEOUT>; \
-	bindings = <&kp SPACE>; \
-	key-positions = <LIT>; \
-	layers = <COMBO_LAYERS>; \
-};
+//
+//         TLP  TLR  TLM  TLI               TRI  TRM  TRR  TRP
+//         BLP  BLR  BLM  BLI               BRI  BRM  BRR  BRP
+//                        LOT  LIT     RIT  ROT
+//
 
-combo_r_space { \
-	timeout-ms = <COMBO_TIMEOUT>; \
-	bindings = <&kp SPACE>; \
-	key-positions = <RIT>; \
-	layers = <COMBO_LAYERS>; \
-};
 
-combo_l_bspc { \
-	timeout-ms = <COMBO_TIMEOUT>; \
-	bindings = <&kp BSPC>; \
-	key-positions = <LOT>; \
-	layers = <COMBO_LAYERS>; \
-};
-
-combo_r_bspc { \
-	timeout-ms = <COMBO_TIMEOUT>; \
-	bindings = <&kp BSPC>; \
-	key-positions = <ROT>; \
-	layers = <COMBO_LAYERS>; \
-};
-
-//    (name,   press,       inner,         out,         both,          chord,       chord)
+//    (name,   press,       inner,         outer,       both,          chord,       chord)
 TCOMBO(B,      &kp B,       &kp LS(B),     &kp LEFT,    &kp LS(LEFT),  TLP,         TRP)
 TCOMBO(F,      &kp F,       &kp LS(F),     &kp UP,      &kp LS(UP),    TLR,         TRR)
 TCOMBO(T,      &kp T,       &kp LS(T),     &kp DOWN,    &kp LS(DOWN),  TLM,         TRM)

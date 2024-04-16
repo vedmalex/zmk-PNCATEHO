@@ -1,0 +1,21 @@
+# parsed and then tweaked from https://github.com/arduxio/zmk-ardux/blob/main/config/boards/shields/artboard/artboard_left.keymap
+layout:
+  cols_thumbs_notation: 2222+2>>
+draw_config:
+  combo_h: 22
+  combo_w: 24
+  arc_radius: 12
+  n_columns: 2
+  #separate_combo_diagrams: true  # try turning this on for separate combo diagrams!
+  combo_diagrams_scale: 2
+layers:
+  EN:
+  - [B, F, T, J]
+  - [H, C, N, Y]
+  - [BSPC, SPACE]
+  RU:
+  - [И, А, Е, О]
+  - [Р, С, Т, Н]
+  - [BSPC, SPACE]
+combos:
+  - {p: [3, 7],       k: ENT}
